@@ -1,0 +1,86 @@
+.map {
+  height: 580px;
+  background-color: rgb(0, 0, 0);
+}
+
+.select-box-row {
+  margin-bottom: 10px;
+}
+
+.altered-select-item {
+  font-size: 1em;
+  float: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  width: 100%;
+}
+
+.altered-select-item dt {
+  padding-right: 0.5em;
+  color: #666666 !important;
+  margin-left: 0;
+  text-transform: none;
+  margin: 0 0 0.25em 0;
+}
+
+.option-select {
+  font-size: 17px;
+  line-height: 145%;
+  color: rgb(34, 34, 34);
+  border: 1px solid rgb(204, 204, 204);
+  padding: 2px 4px;
+}
+
+.table-header {
+  text-align: center;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.map-header {
+  text-align: center;
+  font-family: 'Knockout 49 A','Knockout 49 B', 'LeagueGothicRegular', sans-serif;
+  font-size: 26px;
+  margin: 0 0 5px 0;
+}
+
+.map-switcher li {
+  margin: 0 0 10px 0;
+  padding: 20px 0;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(34, 34, 34);
+  background-color: rgb(155, 206, 200);
+  border-color: rgb(62, 103, 176);
+  border: 1px solid rgb(146, 154, 163);
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -moz-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.map-switcher .selected {
+  background-color: rgb(55, 157, 146);
+}
+
+.chart-legend-2012 {
+  background-color: rgb(55, 157, 146);
+  background-color: rgba(55, 157, 146, 0.5);
+}
+
+.chart-legend-2013 {
+  background-color: rgb(155, 206, 200);
+  background-color: rgba(155, 206, 200, 0.5);
+}
+
+@media screen and (max-width: 767px) {
+  .map {
+    height: 290px;
+  }
+}
